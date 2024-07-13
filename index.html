@@ -59,7 +59,7 @@
   isHome: true,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2024-07-13 21:29:37',
+  postUpdate: '2024-07-13 21:56:01',
   postMainColor: '',
 }</script><noscript><style type="text/css">
   #nav {
@@ -417,7 +417,7 @@ queueMicrotask(() => {
     }
 
     if (typeof Valine === 'function') initValine() 
-    else getScript('https://cdn.cbd.int/valine@1.5.1/dist/Valine.min.js').then(initValine)
+    else getScript('/js/Valine.min.js').then(initValine)
   }
 
   window.pjax ? loadValine() : window.addEventListener('load', loadValine)
